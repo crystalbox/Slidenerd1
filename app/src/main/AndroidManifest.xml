@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dz.cristalbox.slidenerd1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="sensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".InstanceStateActivity" />
+        <activity android:name=".IntentOneActivity" />
+        <activity android:name=".CustomToastActivity" />
+        <activity android:name=".ToggleButtonActivity" />
+        <activity android:name=".ListView1Activity" />
+        <activity android:name=".ListActivityActivity" />
+        <activity android:name=".TestgravityActivity" />
+        <activity android:name=".TestInflaterActivity" />
+        <activity android:name=".ListView2Activity" />
+        <activity android:name=".BaseAdapterActivity" />
+        <activity android:name=".Fragment1Activity" />
+        <activity android:name=".Fragment2Activity" />
+        <activity android:name=".Fragment3Activity" />
+        <activity android:name=".Fragment4Activity" />
+        <activity android:name=".ListDetailFragment1Activity" />
+        <activity android:name=".DatabaseTest1Activity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="dz.cristalbox.slidenerd1.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+            <!-- everything you already have -->
+
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="doSomething"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="doSomething"
+        android:text="Another Button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button3"
+        android:id="@+id/button3" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intence State"
+        android:id="@+id/button_instance_state" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Toast"
+        android:id="@+id/button_show_toast"
+        android:onClick="showToast"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intent One"
+        android:id="@+id/button_intent_one" />
+
+            <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom Toast"
+        android:id="@+id/button_custom_toast"
+        android:onClick="customToast"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Toggle Button"
+                android:id="@+id/button_toggle_button_activity"
+                android:onClick="toggleButton"/>
+
+            <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List view 1"
+            android:id="@+id/button_list"
+            android:onClick="listView1"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="List Activity"
+                android:id="@+id/button_list_activity"
+                android:onClick="listActivity"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Test Gravity"
+                android:id="@+id/button_test_gravity"
+                android:onClick="testGravity"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Test Inflater"
+                android:id="@+id/button_test_inflater"
+                android:onClick="testInflater"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="List view 2"
+                android:id="@+id/button_list2"
+                android:onClick="listView2"/>
+
+            <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List view base adapter"
+            android:id="@+id/button_list_base_adapter"
+            android:onClick="listViewBaseAdapter"/>
+
+            <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fragment 1"
+            android:id="@+id/button_fragment1"
+            android:onClick="onFragments1"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fragment 2"
+                android:id="@+id/button_fragment2"
+                android:onClick="onFragments2"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fragment 3"
+                android:id="@+id/button_fragment3"
+                android:onClick="onFragments3"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fragment 4"
+                android:id="@+id/button_fragment4"
+                android:onClick="onFragments4"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="List detail fragment"
+                android:id="@+id/button_list_detail_fragment1"
+                android:onClick="onListDetailFragment1"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Database Test 1"
+                android:id="@+id/button_sqlite1"
+                android:onClick="onDatabaseTest1"/>
+
+
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>
