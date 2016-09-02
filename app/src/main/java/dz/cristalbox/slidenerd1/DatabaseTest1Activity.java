@@ -26,7 +26,7 @@ public class DatabaseTest1Activity extends AppCompatActivity {
         if (id > 0) {
             Toast.makeText(this,"insert Ok id:" + id,Toast.LENGTH_LONG).show();
         } else {
-            Toast.makeText(this,"insert Failed id is:" + id ,Toast.LENGTH_LONG).show();
+            Toast.makeText(this,"insert Failed id is one:" + id ,Toast.LENGTH_LONG).show();
 
         }
     }
